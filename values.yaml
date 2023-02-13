@@ -1,3 +1,9 @@
+createUserJob:
+  useHelmHooks: false
+  applyCustomEnv: false
 migrateDatabaseJob:
-    jobAnnotations:
-        "argocd.argoproj.io/hook": Sync
+  useHelmHooks: false
+  applyCustomEnv: false
+migrateDatabaseJob:
+  jobAnnotations:
+    "argocd.argoproj.io/hook": Sync
