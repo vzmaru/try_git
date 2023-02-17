@@ -1,3 +1,7 @@
+webserver:
+  service:
+    type: LoadBalancer
+
 createUserJob:
   useHelmHooks: false
   applyCustomEnv: false
